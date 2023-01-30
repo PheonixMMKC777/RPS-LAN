@@ -3,18 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPv2", "TCPv2.csproj", "{CF72172E-93CB-4300-8D86-08851D6DC120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPv2", "TCPv2.csproj", "{CF72172E-93CB-4300-8D86-08851D6DC120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM32 = Debug|ARM32
 		Release|Any CPU = Release|Any CPU
+		Release|ARM32 = Release|ARM32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CF72172E-93CB-4300-8D86-08851D6DC120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF72172E-93CB-4300-8D86-08851D6DC120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF72172E-93CB-4300-8D86-08851D6DC120}.Debug|ARM32.ActiveCfg = Debug|Any CPU
+		{CF72172E-93CB-4300-8D86-08851D6DC120}.Debug|ARM32.Build.0 = Debug|Any CPU
 		{CF72172E-93CB-4300-8D86-08851D6DC120}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF72172E-93CB-4300-8D86-08851D6DC120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF72172E-93CB-4300-8D86-08851D6DC120}.Release|ARM32.ActiveCfg = Release|ARM32
+		{CF72172E-93CB-4300-8D86-08851D6DC120}.Release|ARM32.Build.0 = Release|ARM32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
